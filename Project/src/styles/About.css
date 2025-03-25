@@ -1,0 +1,152 @@
+.about {
+  padding: 5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__background {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom left, rgba(211, 217, 212, 0.5), rgba(116, 141, 146, 0.3));
+}
+
+.dark .about__background {
+  background: linear-gradient(to bottom left, rgba(33, 42, 49, 0.3), rgba(46, 57, 68, 0.2));
+}
+
+.about__container {
+  position: relative;
+  z-index: 10;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.about__header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about__title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-family: var(--font-serif);
+}
+
+.dark .about__title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  font-family: var(--font-serif);
+}
+
+.about__subtitle {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.dark .about__subtitle {
+  color: rgb(18, 128, 148);
+}
+
+.about__cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.about__card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-flat);
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+.dark .about__card {
+  background-color: rgba(33, 42, 49, 0.8);
+}
+
+.about__card:hover {
+  box-shadow: var(--shadow-pressed);
+  transform: translateY(-0.25rem);
+}
+
+.about__card-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.about__card-icon-wrapper {
+  flex-shrink: 0;
+  padding: 0.75rem;
+  background: linear-gradient(to bottom right, var(--color-primary), var(--color-accent));
+  border-radius: 0.5rem;
+  color: var(--color-light);
+  box-shadow: var(--shadow-flat);
+}
+
+.about__card-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.about__card-text {
+  flex: 1;
+}
+
+.about__card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.about__card-description {
+  color: var(--text-secondary);
+}
+
+.about__cta {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.about__button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 2rem;
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about__button:hover {
+  background-color: var(--color-dark);
+  transform: scale(1.05);
+}
+
+.about__button-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .about__title {
+    font-size: 2.5rem;
+  }
+  
+  .about__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

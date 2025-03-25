@@ -1,0 +1,27 @@
+.animated-background {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.animated-background__gradient {
+  position: absolute;
+  inset: -50%;
+  background-size: 400% 400%;
+  filter: blur(100px);
+  opacity: 0.5;
+  will-change: background;
+}
+
+.animated-background__overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--bg-primary);
+  opacity: 0.9;
+}
+
+.dark .animated-background__overlay {
+  background: var(--bg-primary);
+  opacity: 0.95;
+}
