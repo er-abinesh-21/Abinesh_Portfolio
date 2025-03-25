@@ -155,7 +155,7 @@ const Hero = () => {
           >
             <div className="hero__image-wrapper">
               <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA..."
+                src="/assets/ProPic.png"
                 alt="Abinesh B"
                 className="hero__image"
               />
