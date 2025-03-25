@@ -8,8 +8,20 @@ export default defineConfig({
     open: true,
   },
   build: {
-    outDir: 'dist', // Output directory for the build
+    outDir: 'dist',
     assetsDir: 'assets', // Ensures static assets are served from the correct directory
-    sourcemap: true, // Enables source maps for debugging
+    sourcemap: true,
+  },
+  esbuild: {
+    loader: 'jsx',
+    include: /\.(jsx|js)$/,
+    exclude: [],
+  },
+  optimizeDeps: {
+    esbuildOptions: {
+      loader: {
+        '.js': 'jsx',
+      },
+    },
   },
 });
