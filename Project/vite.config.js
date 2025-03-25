@@ -5,22 +5,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000,
-    open: true
+    open: true,
   },
   build: {
-    outDir: 'dist',
-    sourcemap: true
+    outDir: 'dist', // Output directory for the build
+    assetsDir: 'assets', // Ensures static assets are served from the correct directory
+    sourcemap: true, // Enables source maps for debugging
   },
-  esbuild: {
-    loader: 'jsx',
-    include: /\.(jsx|js)$/,
-    exclude: []
-  },
-  optimizeDeps: {
-    esbuildOptions: {
-      loader: {
-        '.js': 'jsx'
-      }
-    }
-  }
 });
