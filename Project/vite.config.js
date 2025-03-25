@@ -8,9 +8,7 @@ export default defineConfig({
     open: true,
   },
   build: {
-    outDir: 'dist',
     assetsDir: 'assets', // Ensures static assets are served from the correct directory
-    sourcemap: true,
   },
   esbuild: {
     loader: 'jsx',
