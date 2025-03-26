@@ -127,7 +127,7 @@ const Hero = () => {
                 View Projects
               </Link>
               <Link
-                 onClick={() => window.open('https://drive.google.com/file/d/1JWgDuhWTaQXJzntI7HLqYjEPtfjHPmCl/view?usp=sharing', '_blank')}
+                 onClick={() => window.open('https://drive.google.com/file/d/1idBrs7-GI4roxcfr14yz-NWDly_TD8kU/view?usp=sharing', '_blank')}
                 spy={true}
                 smooth={true}
                 offset={-70}
