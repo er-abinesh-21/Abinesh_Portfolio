@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown, Code2, Globe, Database } from 'lucide-react';
 import { Link } from 'react-scroll';
+import Profile from './Images/ProPic.png'; // Correct import
 import './Hero.css';
 
 /**
@@ -107,7 +108,7 @@ const Hero = () => {
               </span>
             </motion.div>
             <motion.p className="hero__description" variants={itemVariants}>
-            I am a passionate B.Tech CSE student specializing in MERN Stack development, with expertise in front-end design and building responsive web applications. With a keen interest in creating dynamic and seamless web experiences, I aim to combine my technical skills and creativity to develop interactive and user-friendly solutions. Let's collaborate to bring innovative web experiences to life!
+              I am a passionate B.Tech CSE student specializing in MERN Stack development, with expertise in front-end design and building responsive web applications. With a keen interest in creating dynamic and seamless web experiences, I aim to combine my technical skills and creativity to develop interactive and user-friendly solutions. Let's collaborate to bring innovative web experiences to life!
             </motion.p>
             
             {/* CTA Buttons */}
@@ -154,11 +155,7 @@ const Hero = () => {
             variants={itemVariants}
           >
             <div className="hero__image-wrapper">
-              <img
-                src="./Images/ProPic.png"
-                alt="Abinesh B"
-                className="hero__image"
-              />
+              <img src={Profile} alt="Abinesh B" className="hero__image" /> {/* Fixed here */}
               <div className="hero__image-shadow"></div>
             </div>
           </motion.div>

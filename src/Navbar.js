@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Github, Linkedin, Mail, Sun, Moon } from 'lucide-react';
 import { useTheme } from './useTheme';
+import Logo from './Images/Logo.png'; // Correct import
 import './Navbar.css';
 
 const Navbar = () => {
@@ -34,7 +35,7 @@ const Navbar = () => {
 
           {/* Logo */}
           <div className="navbar__logo">
-            <img src="./Images/Logo.png" alt="Logo" className="navbar__logo-image" />
+            <img src={Logo} alt="Logo" className="navbar__logo-image" /> {/* Fixed here */}
           </div>
 
           {/* Desktop Navigation */}
