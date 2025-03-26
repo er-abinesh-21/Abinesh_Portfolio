@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown, Code2, Globe, Database } from 'lucide-react';
 import { Link } from 'react-scroll';
-import '../styles/Hero.css';
+import './Hero.css';
 
 /**
  * Hero section component with animated elements
@@ -155,7 +155,7 @@ const Hero = () => {
           >
             <div className="hero__image-wrapper">
               <img
-                src="/assets/ProPic.png"
+                src="/Public/assets/ProPic.png"
                 alt="Abinesh B"
                 className="hero__image"
               />

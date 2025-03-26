@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Github, Linkedin, Mail, Sun, Moon } from 'lucide-react';
-import { useTheme } from '../hooks/useTheme';
-import '../styles/Navbar.css';
+import { useTheme } from './useTheme';
+import './Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +34,7 @@ const Navbar = () => {
 
           {/* Logo */}
           <div className="navbar__logo">
-            <img src="/assets/Logo.png" alt="Logo" className="navbar__logo-image" />
+            <img src="/Public/assets/Logo.png" alt="Logo" className="navbar__logo-image" />
           </div>
 
           {/* Desktop Navigation */}

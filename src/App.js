@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Certifications from './components/Certifications';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import ParticlesBackground from './components/ParticlesBackground';
-import AnimatedBackground from './components/AnimatedBackground';
-import LoadingScreen from './components/LoadingScreen';
-import './styles/App.css';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import About from './About';
+import Skills from './Skills';
+import Projects from './Projects';
+import Certifications from './Certifications';
+import Contact from './Contact';
+import Footer from './Footer';
+import ParticlesBackground from './ParticlesBackground';
+import AnimatedBackground from './AnimatedBackground';
+import LoadingScreen from './LoadingScreen';
+import './App.css';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);

@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { useTheme } from '../hooks/useTheme';
+import { useTheme } from './useTheme';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 

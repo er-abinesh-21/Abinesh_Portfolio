@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { Heart, ArrowUp } from 'lucide-react';
-import '../styles/Footer.css';
+import './Footer.css';
 
 /**
  * Footer component with links and copyright

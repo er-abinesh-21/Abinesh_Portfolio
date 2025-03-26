@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import '../styles/LoadingScreen.css';
+import './LoadingScreen.css';
 
 const LoadingScreen = () => {
   return (

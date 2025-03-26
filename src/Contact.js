@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Mail, Github, Linkedin, Send, MapPin, Phone } from 'lucide-react';
-import '../styles/Contact.css';
+import './Contact.css';
 
 const Contact = () => {
   const [ref, inView] = useInView({

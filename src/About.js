@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Code2, GraduationCap, Briefcase, Award } from 'lucide-react';
-import '../styles/About.css';
+import './About.css';
 
 /**
  * About section component with animated cards

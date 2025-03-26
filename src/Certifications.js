@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Award, CheckCircle, Calendar, ExternalLink } from 'lucide-react';
-import '../styles/Certifications.css';
+import './Certifications.css';
 
 /**
  * Certifications section component

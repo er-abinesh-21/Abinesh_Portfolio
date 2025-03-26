@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { useTheme } from '../hooks/useTheme';
-import '../styles/Background.css';
+import './Background.css';
 
 /**
  * Background component with Three.js particles

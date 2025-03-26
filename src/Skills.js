@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Code2, Database, Palette, Terminal, Globe, Server } from 'lucide-react';
-import '../styles/Skills.css';
+import './Skills.css';
 
 /**
  * Skills section component with progress bars

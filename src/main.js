@@ -1,8 +1,8 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
-import { ThemeProvider } from './hooks/useTheme';
-import './styles/index.css';
+import { ThemeProvider } from './useTheme';
+import './index.css';
 
 /**
  * Initialize the React application with ThemeProvider
