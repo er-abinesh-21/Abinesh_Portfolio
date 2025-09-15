@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Github, ExternalLink, MessageSquare, Cloud, Shield } from 'lucide-react';
+import { Github, ExternalLink, MessageSquare, Cloud, Shield, Clock, ShoppingCart } from 'lucide-react';
 import './Projects.css';
 
 const Projects = () => {
@@ -129,6 +129,52 @@ const Projects = () => {
   };
 
   const projects = [
+    {
+      title: 'VidProof - Video Authenticity & Integrity Checker',
+      description: 'A web application for checking the authenticity and integrity of videos.',
+      image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjquTGsTAGvp8-dRKsbgo-zY6nWwlZySWg6EkAznX7ddPjYMgmgJ3dtB_f9YN29vSwDC0ns1dMVIcEIuExPSgwEyIJABEKq7kHwZWgtKrYi9d9WAHbnlM2Hdb7tiLZy_9gcaktMrqFsJPA/s640/record.jpg',
+      tech: ['React.js', 'Node.js', 'Hugging Face Inference API', 'Supabase' ],
+      icon: <Shield className="projects__card-icon" />,
+      github: 'https://github.com/er-abinesh-21/VidProof.AI',
+      demo: 'https://vidproof-ai.vercel.app/',
+      features: [
+        'User Authentication',
+        'AI-Powered Analysis',
+        'Verification Reports',
+        'PDF Export'
+      ]
+    },
+    {
+      title: 'SubTrackr - Subscription Tracker',
+      description: 'A web application for tracking subscription plans and managing subscriptions.',
+      image: 'https://strapi.decentro.tech/uploads/Subscription_Business_Model_Blog_Services_d7e87914ee.jpg',
+      tech: ['React.js', 'Node.js', 'Supabase', 'Tailwind CSS'],
+      icon: <Clock className="projects__card-icon" />,
+      github: 'https://github.com/er-abinesh-21/SubTrackR',
+      demo: 'https://subtrackr-tau.vercel.app/',
+      features: [
+        'Dashboard Analytics',
+        'Subscription Management',
+        'Smart Notifications',
+        'Security & Authentication'
+      ]
+    },
+    {
+      title: 'Zenocart - E-commerce Website',
+      description: 'An e-commerce website built with React.js and Node.js.',
+      image: 'https://airisx.com/wp-content/uploads/2023/06/cyber-monday-shopping-sales-2048x1365.jpg',
+      tech: ['React.js', 'Node.js', 'Supabase', 'Tailwind CSS'],
+      icon: <ShoppingCart className="projects__card-icon" />,
+      github: 'https://github.com/er-abinesh-21/ZenoCart',
+      demo: 'https://zeno-cart.vercel.app/',
+      features: [
+        'Checkout Process',
+        'Products Management',
+        'Orders Management',
+        'Customer Management',
+        'Admin Management'
+      ]
+    },
     {
       title: 'ByteTalk - Realtime Chat App',
       description: 'A real-time chat application featuring room-based messaging and scalable architecture.',
