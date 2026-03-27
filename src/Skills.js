@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Code2, Database, Palette, Terminal, Globe, Server } from 'lucide-react';
+import { Code2, Database, Palette, Terminal, Globe, Server, Cloud, Smartphone, BarChart3 } from 'lucide-react';
 import './Skills.css';
 
 /**
@@ -52,9 +52,13 @@ const Skills = () => {
       title: 'Languages',
       skills: [
         { name: 'JavaScript', level: 90 },
+        { name: 'TypeScript', level: 80 },
         { name: 'Python', level: 85 },
-        { name: 'HTML/CSS', level: 95 },
+        { name: 'HTML5', level: 95 },
+        { name: 'CSS3', level: 95 },
         { name: 'C', level: 85 },
+        { name: 'PHP', level: 70 },
+        { name: 'PowerShell', level: 75 },
       ],
     },
     {
@@ -64,46 +68,76 @@ const Skills = () => {
         { name: 'React.js', level: 90 },
         { name: 'Tailwind CSS', level: 85 },
         { name: 'Bootstrap', level: 80 },
-        { name: 'Responsive Design', level: 90 },
+        { name: 'Vite', level: 85 },
       ],
     },
     {
       icon: <Server className="skills__category-icon" />,
-      title: 'Backend',
+      title: 'Backend & Frameworks',
       skills: [
         { name: 'Node.js', level: 85 },
         { name: 'Express.js', level: 85 },
-        { name: 'RESTful APIs', level: 90 },
         { name: 'Socket.IO', level: 80 },
+        { name: 'FastAPI', level: 75 },
+        { name: 'Flask', level: 75 },
+        { name: 'JWT', level: 80 },
+        { name: 'NPM', level: 90 },
+        { name: 'PNPM', level: 80 },
+        { name: 'Nodemon', level: 85 },
       ],
     },
     {
       icon: <Database className="skills__category-icon" />,
       title: 'Databases',
       skills: [
+        { name: 'Firebase', level: 85 },
         { name: 'MongoDB', level: 80 },
+        { name: 'Supabase', level: 85 },
         { name: 'MySQL', level: 85 },
+        { name: 'SQLite', level: 80 },
+      ],
+    },
+    {
+      icon: <Cloud className="skills__category-icon" />,
+      title: 'Deployment & Cloud',
+      skills: [
+        { name: 'Vercel', level: 90 },
+        { name: 'Netlify', level: 85 },
+        { name: 'Render', level: 80 },
+        { name: 'Google Cloud', level: 75 },
+        { name: 'Heroku', level: 75 },
+        { name: 'Apache Tomcat', level: 70 },
+      ],
+    },
+    {
+      icon: <Smartphone className="skills__category-icon" />,
+      title: 'Mobile Development',
+      skills: [
+        { name: 'React Native', level: 75 },
+        { name: 'Flutter', level: 70 },
+        { name: 'Expo', level: 75 },
+      ],
+    },
+    {
+      icon: <BarChart3 className="skills__category-icon" />,
+      title: 'Data Science & Libraries',
+      skills: [
+        { name: 'NumPy', level: 80 },
+        { name: 'Pandas', level: 80 },
+        { name: 'Matplotlib', level: 80 },
+        { name: 'FFmpeg', level: 70 },
+        { name: 'PyQt6', level: 70 },
       ],
     },
     {
       icon: <Palette className="skills__category-icon" />,
-      title: 'Design',
+      title: 'Design & Tools',
       skills: [
         { name: 'Figma', level: 90 },
         { name: 'Canva', level: 90 },
-        { name: 'UI/UX Design', level: 90 },
-        { name: 'Wireframing', level: 95 },
-        { name: 'Prototyping', level: 95 },
-
-      ],
-    },
-    {
-      icon: <Terminal className="skills__category-icon" />,
-      title: 'Tools',
-      skills: [
         { name: 'Git & GitHub', level: 90 },
-        { name: 'VS Code', level: 95 },
         { name: 'Postman', level: 85 },
+        { name: 'Windows Terminal', level: 85 },
       ],
     },
   ];
