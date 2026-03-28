@@ -38,23 +38,23 @@ const About = () => {
   const cards = [
     {
       icon: <Code2 className="about__card-icon" />,
-      title: 'MERN Stack Developer',
-      description: 'Proficient in JavaScript, React.js, Node.js, Express.js, and MongoDB, with hands-on experience in UI/UX design using Figma.',
+      title: 'Full-Stack Developer',
+      description: 'Proficient in React.js, Node.js, Express.js, FastAPI, Flask, MongoDB, and PostgreSQL with expertise in UI/UX design using Figma.',
     },
     {
       icon: <GraduationCap className="about__card-icon" />,
       title: 'B.Tech in CSE',
-      description: 'Currently pursuing Computer Science Engineering at Sri Venkateshwaraa College of Engineering and Technology.',
+      description: 'Pursuing Computer Science Engineering at Sri Venkateshwaraa College of Engineering and Technology (Nov 2022 – Jun 2026).',
     },
     {
       icon: <Briefcase className="about__card-icon" />,
       title: 'Industry Experience',
-      description: 'Full-Stack Developer at CODTECH IT SOLUTIONS, working on real-world projects with modern web technologies.',
+      description: 'Cyber Security & Software Engineer Intern at ePropelled and Full Stack Engineer Intern at CODTECH IT SOLUTIONS, with hands-on experience in full-stack web applications, real-time simulation tools, and security.',
     },
     {
       icon: <Award className="about__card-icon" />,
       title: 'Certifications',
-      description: 'Multiple certifications in Full Stack Development, MongoDB, and various technical domains.',
+      description: 'Certified in MongoDB, Postman API Fundamentals, Prompt Engineering, Python Programming, Networking, and more.',
     },
   ];
 
@@ -74,7 +74,7 @@ const About = () => {
             About Me
           </h2>
           <p className="about__subtitle">
-          I am a passionate B.Tech Computer Science and Engineering student with a deep focus on MERN Stack development. I specialize in creating interactive, user-friendly front-end designs, and developing responsive web applications. I am constantly learning and enhancing my skills to build innovative and scalable web solutions. My goal is to contribute to the ever-evolving tech world by turning ideas into reality with clean and efficient code.
+          Innovative Software Engineer with a dual-focus in MERN Stack and Python development. Proven track record in building scalable, responsive web applications and robust Python-based software solutions. Expertise includes architecting RESTful APIs, UI/UX design via Figma, and optimizing application performance. Proficient in leveraging AI Agents and LLM orchestration to automate workflows and enhance software intelligence. Deeply committed to DevOps practices and cloud-native deployment to deliver efficient, user-centric, and future-proof digital products.
           </p>
         </motion.div>
 

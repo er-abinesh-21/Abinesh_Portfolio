@@ -104,11 +104,11 @@ const Hero = () => {
               variants={itemVariants}
             >
               <span className="hero__role-text">
-                MERN Stack Developer
+                Full-Stack Developer & AI Integration Specialist
               </span>
             </motion.div>
             <motion.p className="hero__description" variants={itemVariants}>
-              I am a passionate B.Tech CSE student specializing in MERN Stack development, with expertise in front-end design and building responsive web applications. With a keen interest in creating dynamic and seamless web experiences, I aim to combine my technical skills and creativity to develop interactive and user-friendly solutions. Let's collaborate to bring innovative web experiences to life!
+              Innovative Software Engineer with a dual-focus in MERN Stack and Python development. Proven track record in building scalable, responsive web applications and robust Python-based software solutions. Expertise includes architecting RESTful APIs, UI/UX design via Figma, and leveraging AI Agents & LLM orchestration to automate workflows and enhance software intelligence.
             </motion.p>
             
             {/* CTA Buttons */}
@@ -127,7 +127,7 @@ const Hero = () => {
                 View Projects
               </Link>
               <Link
-                 onClick={() => window.open('https://drive.google.com/file/d/1idBrs7-GI4roxcfr14yz-NWDly_TD8kU/view?usp=sharing', '_blank')}
+                 onClick={() => window.open('https://drive.google.com/file/d/1tO8B6axom0lzc7dfngpjT2GthfZcdwIn/view?usp=sharing', '_blank')}
                 spy={true}
                 smooth={true}
                 offset={-70}

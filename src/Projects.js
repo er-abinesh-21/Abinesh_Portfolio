@@ -129,6 +129,96 @@ const Projects = () => {
   };
 
   const projects = [
+        {
+      title: 'PocketPulse - Personal Finance Dashboard',
+      description: 'Track your financial health at a glance with AI-powered insights and multi-account management.',
+      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2000&auto=format&fit=crop',
+      tech: ['React.js', 'Firebase', 'Tailwind CSS', 'Google Gemini API'],
+      icon: <Wallet className="projects__card-icon" />,
+      github: 'https://github.com/er-abinesh-21/Pocket-Pulse',
+      demo: 'https://pocket-pulse.vercel.app/',
+      features: [
+        'AI Financial Advisor powered by Gemini',
+        'Multi-Account Management',
+        'Visual Analytics & Budget Planning',
+        'Dark Mode & Fully Responsive'
+      ]
+    },
+    {
+      title: 'StudyNova - AI Adaptive Learning Companion',
+      description: 'An intelligent desktop app that monitors engagement during study sessions using real-time facial analysis.',
+      image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=2000&auto=format&fit=crop',
+      tech: ['Electron.js', 'React.js', 'Python', 'FastAPI', 'MediaPipe'],
+      icon: <BookOpen className="projects__card-icon" />,
+      github: 'https://github.com/er-abinesh-21/Study_Nova',
+      demo: 'https://github.com/er-abinesh-21/Study_Nova',
+      features: [
+        'Real-time Engagement Monitoring',
+        'Smart Interventions & Quizzes',
+        'Privacy-First Local Processing',
+        'Analytics Dashboard'
+      ]
+    },
+    {
+      title: 'NetZen - Network Speed & Usage Monitor',
+      description: 'A modern Python desktop application for monitoring network speed and usage in real-time with a beautiful dark theme.',
+      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop',
+      tech: ['Python', 'PySide6', 'psutil', 'Matplotlib'],
+      icon: <Wifi className="projects__card-icon" />,
+      github: 'https://github.com/er-abinesh-21/NetZen',
+      demo: 'https://github.com/er-abinesh-21/NetZen',
+      features: [
+        'Floating Speed Widget',
+        'Dashboard with Daily/Weekly/Monthly Stats',
+        'System Tray & Global Hotkeys',
+        'CSV Export & Auto-start'
+      ]
+    },
+    {
+      title: 'Zephos - Personal AI Assistant',
+      description: 'A futuristic JARVIS-inspired personal AI assistant with voice control, facial authentication, and holographic dashboard.',
+      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2000&auto=format&fit=crop',
+      tech: ['Python', 'Ollama', 'OpenCV', 'Tkinter'],
+      icon: <Bot className="projects__card-icon" />,
+      github: 'https://github.com/er-abinesh-21/Zephos-Personal-Assistant',
+      demo: 'https://github.com/er-abinesh-21/Zephos-Personal-Assistant',
+      features: [
+        'Voice Control & Face Authentication',
+        'JARVIS-style Holographic Dashboard',
+        'AI Responses via Ollama',
+        'Tamil & English Language Support'
+      ]
+    },
+    {
+      title: 'Family Document Cloud Manager',
+      description: 'A secure, cloud-based web app for managing family documents using React, Firebase, and Google Drive API.',
+      image: 'https://images.unsplash.com/photo-1568667256549-094345857637?q=80&w=2000&auto=format&fit=crop',
+      tech: ['React.js', 'Firebase', 'Google Drive API', 'Tailwind CSS'],
+      icon: <FolderOpen className="projects__card-icon" />,
+      github: 'https://github.com/er-abinesh-21/Fam_Doc',
+      demo: 'https://github.com/er-abinesh-21/Fam_Doc',
+      features: [
+        'Multi-page Document Upload',
+        'Role-based Access Control',
+        'Google Drive Cloud Storage',
+        'Advanced Search & OCR'
+      ]
+    },
+    {
+      title: 'WorkTime Pro - Android Application',
+      description: 'A production-ready Android app that helps employees calculate exact logout time based on office timings.',
+      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2000&auto=format&fit=crop',
+      tech: ['Kotlin', 'Android SDK', 'Room Database', 'Material Design 3'],
+      icon: <Smartphone className="projects__card-icon" />,
+      github: 'https://github.com/er-abinesh-21/WorkTime-Pro',
+      demo: 'https://github.com/er-abinesh-21/WorkTime-Pro',
+      features: [
+        'Accurate Logout Time Calculation',
+        'Daily History with Room Database',
+        'Logout Reminder Notifications',
+        'Dark Mode & Share Feature'
+      ]
+    },
     {
       title: 'VidProof - Video Authenticity & Integrity Checker',
       description: 'A web application for checking the authenticity and integrity of videos.',
@@ -218,96 +308,6 @@ const Projects = () => {
         'Distraction blocking features',
         'Productivity reports generation',
         'Customizable blocking rules'
-      ]
-    },
-    {
-      title: 'PocketPulse - Personal Finance Dashboard',
-      description: 'Track your financial health at a glance with AI-powered insights and multi-account management.',
-      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2000&auto=format&fit=crop',
-      tech: ['React.js', 'Firebase', 'Tailwind CSS', 'Google Gemini API'],
-      icon: <Wallet className="projects__card-icon" />,
-      github: 'https://github.com/er-abinesh-21/Pocket-Pulse',
-      demo: 'https://pocket-pulse.vercel.app/',
-      features: [
-        'AI Financial Advisor powered by Gemini',
-        'Multi-Account Management',
-        'Visual Analytics & Budget Planning',
-        'Dark Mode & Fully Responsive'
-      ]
-    },
-    {
-      title: 'StudyNova - AI Adaptive Learning Companion',
-      description: 'An intelligent desktop app that monitors engagement during study sessions using real-time facial analysis.',
-      image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=2000&auto=format&fit=crop',
-      tech: ['Electron.js', 'React.js', 'Python', 'FastAPI', 'MediaPipe'],
-      icon: <BookOpen className="projects__card-icon" />,
-      github: 'https://github.com/er-abinesh-21/Study_Nova',
-      demo: 'https://github.com/er-abinesh-21/Study_Nova',
-      features: [
-        'Real-time Engagement Monitoring',
-        'Smart Interventions & Quizzes',
-        'Privacy-First Local Processing',
-        'Analytics Dashboard'
-      ]
-    },
-    {
-      title: 'NetZen - Network Speed & Usage Monitor',
-      description: 'A modern Python desktop application for monitoring network speed and usage in real-time with a beautiful dark theme.',
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop',
-      tech: ['Python', 'PySide6', 'psutil', 'Matplotlib'],
-      icon: <Wifi className="projects__card-icon" />,
-      github: 'https://github.com/er-abinesh-21/NetZen',
-      demo: 'https://github.com/er-abinesh-21/NetZen',
-      features: [
-        'Floating Speed Widget',
-        'Dashboard with Daily/Weekly/Monthly Stats',
-        'System Tray & Global Hotkeys',
-        'CSV Export & Auto-start'
-      ]
-    },
-    {
-      title: 'Zephos - Personal AI Assistant',
-      description: 'A futuristic JARVIS-inspired personal AI assistant with voice control, facial authentication, and holographic dashboard.',
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2000&auto=format&fit=crop',
-      tech: ['Python', 'Ollama', 'OpenCV', 'Tkinter'],
-      icon: <Bot className="projects__card-icon" />,
-      github: 'https://github.com/er-abinesh-21/Zephos-Personal-Assistant',
-      demo: 'https://github.com/er-abinesh-21/Zephos-Personal-Assistant',
-      features: [
-        'Voice Control & Face Authentication',
-        'JARVIS-style Holographic Dashboard',
-        'AI Responses via Ollama',
-        'Tamil & English Language Support'
-      ]
-    },
-    {
-      title: 'Family Document Cloud Manager',
-      description: 'A secure, cloud-based web app for managing family documents using React, Firebase, and Google Drive API.',
-      image: 'https://images.unsplash.com/photo-1568667256549-094345857637?q=80&w=2000&auto=format&fit=crop',
-      tech: ['React.js', 'Firebase', 'Google Drive API', 'Tailwind CSS'],
-      icon: <FolderOpen className="projects__card-icon" />,
-      github: 'https://github.com/er-abinesh-21/Fam_Doc',
-      demo: 'https://github.com/er-abinesh-21/Fam_Doc',
-      features: [
-        'Multi-page Document Upload',
-        'Role-based Access Control',
-        'Google Drive Cloud Storage',
-        'Advanced Search & OCR'
-      ]
-    },
-    {
-      title: 'WorkTime Pro - Android Application',
-      description: 'A production-ready Android app that helps employees calculate exact logout time based on office timings.',
-      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2000&auto=format&fit=crop',
-      tech: ['Kotlin', 'Android SDK', 'Room Database', 'Material Design 3'],
-      icon: <Smartphone className="projects__card-icon" />,
-      github: 'https://github.com/er-abinesh-21/WorkTime-Pro',
-      demo: 'https://github.com/er-abinesh-21/WorkTime-Pro',
-      features: [
-        'Accurate Logout Time Calculation',
-        'Daily History with Room Database',
-        'Logout Reminder Notifications',
-        'Dark Mode & Share Feature'
       ]
     }
   ];
